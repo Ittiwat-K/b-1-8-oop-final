@@ -11,6 +11,7 @@ public class Collectable : MonoBehaviour
         collectableBehaviour = GetComponent<ICollectableBehaviour>();
     }
 
+    // ทำลายเมื่อเกิดการชนจาก player
     private void OnTriggerEnter2D(Collider2D collision)
     {
         var player = collision.GetComponent<PlayerController>();

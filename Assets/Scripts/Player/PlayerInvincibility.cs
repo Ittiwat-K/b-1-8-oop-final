@@ -14,6 +14,7 @@ public class PlayerInvincibility : MonoBehaviour
         invincibilityController = GetComponent<InvincibilityController>();
     }
     
+    // สร้าง i frame ให้ player 
     public void StartInvincibility()
     {
         invincibilityController.StartInvincibility(invincibilityDuration, flashColor, numberOfFlash);

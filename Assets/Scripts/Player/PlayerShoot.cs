@@ -13,6 +13,7 @@ public class PlayerShoot : MonoBehaviour
     private bool isFireSingle;
     private float lastFireTime;
 
+    // เช็ครูปแบบการยิงของ player
     void Update()
     {
         if (isFireContinuously || isFireSingle)
@@ -27,6 +28,7 @@ public class PlayerShoot : MonoBehaviour
         }
     }
 
+    // สร้างกระสุนและยิงออกไป
     private void FireBullet()
     {
         GameObject _bullet = Instantiate(bullet, bulletOffset.position, transform.rotation);
@@ -34,6 +36,7 @@ public class PlayerShoot : MonoBehaviour
         rigidbody.velocity = transform.up * bulletSpeed;
     }
 
+    // เช็คการกดปุ่มยิงของ player
     private void OnFire(InputValue inputValue)
     {
         isFireContinuously = inputValue.isPressed;

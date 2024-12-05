@@ -9,9 +9,9 @@ public class PlayerController : CharacterController
     private Vector2 movementInput;
     private Vector2 smoothMovementInput;
     private Vector2 smoothMovementInputVelocity;
-
     private Animator animator;
 
+    // method overriding ???
     protected override void Awake()
     {
         base.Awake();
@@ -26,6 +26,7 @@ public class PlayerController : CharacterController
         MouseInput();
     }
 
+    // abstract override
     public override void SetVelocity()
     {
         smoothMovementInput = Vector2.SmoothDamp(smoothMovementInput, movementInput, ref smoothMovementInputVelocity, smoothTime);
@@ -33,6 +34,7 @@ public class PlayerController : CharacterController
         PreventOffScreen(rigidbody.velocity);
     }
 
+    // player หมุนทิศทางตาม input ของการเคลื่อนไหว
     private void RotateInDirectionOfInput()
     {
         if (movementInput != Vector2.zero)
@@ -41,12 +43,14 @@ public class PlayerController : CharacterController
         }
     }
 
+    // animation เมื่อ player เคลื่อนไหว
     private void SetAnimation()
     {
         bool isMoving = movementInput != Vector2.zero;
         animator.SetBool("IsMoving", isMoving);
     }
 
+    // player รับ input การหันจาก mouse
     private void MouseInput()
     {
         Vector2 mousePosition = camera.ScreenToWorldPoint(Input.mousePosition);
@@ -54,6 +58,7 @@ public class PlayerController : CharacterController
         RotateTowards(aimDirection);
     }
 
+    // player รับ input การเคลื่อนไหวจาก keyboard
     private void OnMove(InputValue inputValue)
     {
         movementInput = inputValue.Get<Vector2>();

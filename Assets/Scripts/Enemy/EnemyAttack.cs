@@ -6,6 +6,7 @@ public class EnemyAttack : MonoBehaviour
 {
     [SerializeField] private float damageAmount;
 
+    // ลดเลือด player เมื่อปะทะ
     private void OnCollisionStay2D(Collision2D collision)
     {
         if (collision.gameObject.GetComponent<PlayerController>())

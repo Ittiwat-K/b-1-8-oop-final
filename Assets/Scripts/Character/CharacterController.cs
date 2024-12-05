@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// คลาสแม่ของ PlayerController กับ EnemyMovement
+// abstract class
 public abstract class CharacterController : MonoBehaviour
 {
     [SerializeField] protected float speed;
@@ -16,6 +18,7 @@ public abstract class CharacterController : MonoBehaviour
         camera = Camera.main;
     }
 
+    // ป้องกันตัวละครหลุดขอบจอ
     protected void PreventOffScreen(Vector2 velocity)
     {
         Vector2 screenPosition = camera.WorldToScreenPoint(transform.position);
@@ -32,6 +35,7 @@ public abstract class CharacterController : MonoBehaviour
         rigidbody.velocity = velocity;
     }
 
+    // การหันหน้าของตัวละคร
     protected void RotateTowards(Vector2 direction)
     {
         if (direction != Vector2.zero)
@@ -43,5 +47,6 @@ public abstract class CharacterController : MonoBehaviour
         }
     }
 
+    // abstract method 
     public abstract void SetVelocity();
 }

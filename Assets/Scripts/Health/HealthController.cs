@@ -12,6 +12,7 @@ public class HealthController : MonoBehaviour
     public UnityEvent OnHealthChanged;
     public bool IsInvincible {  get; set; }
 
+    // คำนวณค่าพลังชีวิตคงเหลือ
     public float RemainingHealthPercentage
     {
         get
@@ -20,6 +21,7 @@ public class HealthController : MonoBehaviour
         }
     }
 
+    // คำนวณค่าพลังชีวิตหลังจากได้รับ damage
     public void TakeDamage(float damageAmount)
     {
         if (currentHealth == 0)
@@ -50,6 +52,7 @@ public class HealthController : MonoBehaviour
         }
     }
 
+    // การเพิ่มค่าพลังชีวิต(กล่องยา)
     public void AddHealth(float addAmount)
     {
         if (currentHealth == maximumHealth)
