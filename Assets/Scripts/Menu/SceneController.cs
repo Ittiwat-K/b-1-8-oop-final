@@ -13,19 +13,19 @@ public class SceneController : MonoBehaviour
         sceneFade = GetComponentInChildren<SceneFade>();
     }
 
-    // เริ่มต้นการ fade in เมื่อเข้า scene
+    // Start fading in when entering the scene.
     private IEnumerator Start()
     {
         yield return sceneFade.FadeInCoroutine(sceneFadeDuration);
     }
 
-    // โหลด scene
+    // Load scene
     public void LoadScene(string sceneName)
     {
         StartCoroutine(LoadSceneCoroutine(sceneName));
     }
 
-    // เริ่มต้นการ fade out เมื่อโหลด scene 
+    // Initiate fade out when loading a scene. 
     private IEnumerator LoadSceneCoroutine(string sceneName)
     {
         yield return sceneFade.FadeOutCoroutine(sceneFadeDuration);

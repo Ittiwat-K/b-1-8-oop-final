@@ -12,7 +12,7 @@ public class SceneFade : MonoBehaviour
         sceneFadeImage = GetComponent<Image>();
     }
 
-    // scene fade in (มืดไปสว่าง)
+    // Scene fade in
     public IEnumerator FadeInCoroutine(float duration)
     {
         Color startColor = new Color(sceneFadeImage.color.r, sceneFadeImage.color.g, sceneFadeImage.color.b, 1);
@@ -21,7 +21,7 @@ public class SceneFade : MonoBehaviour
         gameObject.SetActive(false);
     }
 
-    // scene fade out (สว่างไปมืด)
+    // Scene fade out
     public IEnumerator FadeOutCoroutine(float duration)
     {
         Color startColor = new Color(sceneFadeImage.color.r, sceneFadeImage.color.g, sceneFadeImage.color.b, 0);
@@ -30,7 +30,7 @@ public class SceneFade : MonoBehaviour
         yield return FadeCoroutine(startColor, targetColor, duration);
     }
 
-    // ควบคุมระยะเวลาการ fade in และ fade out
+    // Control fade in and fade out durations
     private IEnumerator FadeCoroutine(Color startColor, Color targetColor, float duration)
     {
         float fadeTime = Time.deltaTime;

@@ -12,7 +12,7 @@ public class EnemyCollectableDrop : MonoBehaviour
         collectableSpawner = FindObjectOfType<CollectableSpawner>();
     }
 
-    // สุ่มโอกาสสร้าง collectable
+    // Random chance to create a collectable
     public void RandomDropCollectable()
     {
         float random = Random.Range(0f, 1f);

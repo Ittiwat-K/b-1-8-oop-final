@@ -16,7 +16,7 @@ public class Bullet : MonoBehaviour
         DestroyWhenOffScreen();
     }
 
-    // ลดเลือด enemy และทำลายตัว bullet เมื่อปะทะ
+    // Reduces enemy health and destroys bullets on impact.
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.GetComponent<EnemyMovement>())
@@ -27,7 +27,7 @@ public class Bullet : MonoBehaviour
         }
     }
 
-    // ทำลายตัว bullet เมื่อหลุดขอบจอ
+    // Destroy the bullet when it off the edge of the screen.
     private void DestroyWhenOffScreen()
     {
         Vector2 screenPosition = camera.WorldToScreenPoint(transform.position);

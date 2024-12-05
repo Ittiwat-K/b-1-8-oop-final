@@ -11,13 +11,13 @@ public class SpriteFlash : MonoBehaviour
         spriteRenderer = GetComponentInChildren<SpriteRenderer>();
     }
 
-    // สร้าง flash
+    // Create a flash
     public void StartFlash(float flashDuration, Color flashColor, int numberOfFlash)
     {
         StartCoroutine(FlashCoroutine(flashDuration, flashColor, numberOfFlash));
     }
 
-    // สร้าง flash effect
+    // Create a flash effect
     public IEnumerator FlashCoroutine(float flashDuration, Color flashColor, int numberOfFlash)
     {
         Color startColor = spriteRenderer.color;

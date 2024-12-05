@@ -6,7 +6,7 @@ public class CollectableSpawner : MonoBehaviour
 {
     [SerializeField] private List<GameObject> collectablePrefabs;
 
-    // สุ่มสร้าง collectable จากรายการ prefabs
+    // Randomly create collectable from prefabs list.
     public void SpawnCollectable(Vector2 position)
     {
         int index = Random.Range(0, collectablePrefabs.Count);

@@ -13,13 +13,13 @@ public class InvincibilityController : MonoBehaviour
         spriteFlash = GetComponent<SpriteFlash>();
     }
 
-    // เริ่มต้นการทำงานของ i frame
+    // Start the I frame
     public void StartInvincibility(float invincibilityDuration, Color flashColor, int numberOfFlash)
     {
         StartCoroutine(InvincibilityCoroutine(invincibilityDuration, flashColor, numberOfFlash));
     }
 
-    // สร้าง flash effect ในช่วงเวลา i frame
+    // Create flash effect during I frame time 
     private IEnumerator InvincibilityCoroutine(float invincibilityDuration, Color flashColor, int numberOfFlash)
     {
         healthController.IsInvincible = true;

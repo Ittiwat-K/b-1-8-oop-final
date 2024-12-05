@@ -16,7 +16,7 @@ public class PlayerDetectionController : MonoBehaviour
         player = FindObjectOfType<PlayerController>().transform;
     }
 
-    // คำนวณทิศทางและตรวจสอบระยะห่างระหว่าง enemy กับ player
+    // Calculate the direction and check the distance between the enemy and the player.
     void Update()
     {
         Vector2 enemyToPlayerVector = player.position - transform.position;

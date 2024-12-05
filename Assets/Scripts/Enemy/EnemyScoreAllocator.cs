@@ -12,7 +12,7 @@ public class EnemyScoreAllocator : MonoBehaviour
         scoreController = FindObjectOfType<ScoreController>();
     }
 
-    // จำนวน score ที่ได้จาก enemy
+    // Amount of score recieve from enemy (kill count)
     public void AllocateScore()
     {
         scoreController.AddScore(killScore);

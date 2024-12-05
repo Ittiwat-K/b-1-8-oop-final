@@ -24,7 +24,7 @@ public class EnemyMovement : CharacterController
         SetVelocity();
     }
 
-    // update ตำแหน่งของ player
+    // Update Player Location
     private void UpdateTargetDirection()
     {
         if (playerDetectionController.DetectionPlayer)
@@ -38,7 +38,7 @@ public class EnemyMovement : CharacterController
         PreventOffScreen(rigidbody.velocity);
     }
 
-    // หันหน้าหา player
+    // Facing the Player
     private void RotateToTarget()
     {
         if (targetDirection != Vector2.zero)
@@ -59,7 +59,7 @@ public class EnemyMovement : CharacterController
         }
     }
 
-    // animation เมื่อชนกับ player
+    // Play animation when colliding with a player
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag(targetTag))

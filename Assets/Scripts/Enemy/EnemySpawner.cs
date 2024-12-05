@@ -14,7 +14,7 @@ public class EnemySpawner : MonoBehaviour
         SetTimeUntilSpawn();
     }
 
-    // สร้าง enemy ใหม่ที่ตำแหน่งของวัตถุ
+    // Create a new enemy at the object's location.
     void Update()
     {
         timeUntilSpawn -= Time.deltaTime;
@@ -25,7 +25,7 @@ public class EnemySpawner : MonoBehaviour
         }
     }
 
-    // สุ่มระยะเวลาการสร้าง enemy ใหม่
+    // Random spawn period
     private void SetTimeUntilSpawn()
     {
         timeUntilSpawn = Random.Range(minimumSpawnTime, maximumSpawnTime);
