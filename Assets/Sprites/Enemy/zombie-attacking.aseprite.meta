@@ -1,0 +1,656 @@
+fileFormatVersion: 2
+guid: 743935a42f987394f83e887e8a461909
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 300
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 638672261728883570
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: zombie-attacking_Frame_0
+    originalName: 
+    pivot: {x: 0.37337664, y: -0.094736844}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 806
+      y: 745
+      width: 154
+      height: 190
+    spriteID: 319d311cc91a15241b988cde00415c5f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 806, y: 745}
+  - name: zombie-attacking_Frame_1
+    originalName: 
+    pivot: {x: 0.54888886, y: -0.07281554}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 573
+      y: 4
+      width: 225
+      height: 206
+    spriteID: 2847a8926408a514fbfaa7db268122ba
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 573, y: 4}
+  - name: zombie-attacking_Frame_2
+    originalName: 
+    pivot: {x: 0.4798995, y: -0.06976744}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 366
+      y: 4
+      width: 199
+      height: 258
+    spriteID: 06bdd701fbfc967439543ea76c1a2e96
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 366, y: 4}
+  - name: zombie-attacking_Frame_3
+    originalName: 
+    pivot: {x: 0.39062497, y: -0.051948052}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 366
+      y: 576
+      width: 160
+      height: 308
+    spriteID: f3a9b34ef04fa274aa1e1db76df50a48
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 366, y: 576}
+  - name: zombie-attacking_Frame_4
+    originalName: 
+    pivot: {x: 0.38679242, y: -0.05329154}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 188
+      y: 636
+      width: 159
+      height: 319
+    spriteID: f61d16fe81c5fde4da1a9929dd2829bb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 188, y: 636}
+  - name: zombie-attacking_Frame_5
+    originalName: 
+    pivot: {x: 0.42559525, y: -0.07189543}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 188
+      y: 322
+      width: 168
+      height: 306
+    spriteID: ed05680ba3f51dc4587d22a700860e34
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 188, y: 322}
+  - name: zombie-attacking_Frame_6
+    originalName: 
+    pivot: {x: 0.4403409, y: -0.08169934}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 176
+      height: 306
+    spriteID: c5024640d8550564094b535a671ecb16
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: zombie-attacking_Frame_7
+    originalName: 
+    pivot: {x: 0.4066265, y: -0.081761}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 648
+      width: 166
+      height: 318
+    spriteID: aea551a2f30850a4b989a22ad6195210
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 648}
+  - name: zombie-attacking_Frame_8
+    originalName: 
+    pivot: {x: 0.3982036, y: -0.07763975}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 318
+      width: 167
+      height: 322
+    spriteID: 365f4f75952a5ca409cb44bd2dc81af9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 318}
+  - name: zombie-attacking_Frame_9
+    originalName: 
+    pivot: {x: 0.42058825, y: -0.11935484}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 188
+      y: 4
+      width: 170
+      height: 310
+    spriteID: a80847b7a17fcb24086d726246bcdf66
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 188, y: 4}
+  - name: zombie-attacking_Frame_10
+    originalName: 
+    pivot: {x: 0.44476745, y: -0.17449665}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 366
+      y: 270
+      width: 172
+      height: 298
+    spriteID: e78e2cb103a2155449b00829a505db54
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 366, y: 270}
+  - name: zombie-attacking_Frame_11
+    originalName: 
+    pivot: {x: 0.39939022, y: -0.49781662}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 806
+      y: 508
+      width: 164
+      height: 229
+    spriteID: 334a502a353a5534fbc61f678eb75f04
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 806, y: 508}
+  - name: zombie-attacking_Frame_12
+    originalName: 
+    pivot: {x: 0.38957056, y: -0.48739496}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 806
+      y: 262
+      width: 163
+      height: 238
+    spriteID: 7a5992a24b497214aa1c5807c78da2d2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 806, y: 262}
+  - name: zombie-attacking_Frame_13
+    originalName: 
+    pivot: {x: 0.40060243, y: -0.46}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 806
+      y: 4
+      width: 166
+      height: 250
+    spriteID: cb7726e505c171145b073de1a3044f7c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 806, y: 4}
+  - name: zombie-attacking_Frame_14
+    originalName: 
+    pivot: {x: 0.39696968, y: -0.44747078}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 573
+      y: 484
+      width: 165
+      height: 257
+    spriteID: 5d207f41dafa33b43bf4cae9418bf466
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 573, y: 484}
+  - name: zombie-attacking_Frame_15
+    originalName: 
+    pivot: {x: 0.39939022, y: -0.4527559}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 573
+      y: 749
+      width: 164
+      height: 254
+    spriteID: 6f48a6252f9aa7d42aeadf0c2fa475e6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 573, y: 749}
+  - name: zombie-attacking_Frame_16
+    originalName: 
+    pivot: {x: 0.42397663, y: -0.4457364}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 573
+      y: 218
+      width: 171
+      height: 258
+    spriteID: 048c13345531b574ba52d91912162199
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 573, y: 218}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 415763363
+    name: zombie-attacking
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: zombie-attacking_Frame_0
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 99
+        y: 18
+        width: 154
+        height: 190
+      spriteId: 319d311cc91a15241b988cde00415c5f
+    - name: zombie-attacking_Frame_1
+      frameIndex: 1
+      additiveSortOrder: 0
+      cellRect:
+        x: 33
+        y: 15
+        width: 225
+        height: 206
+      spriteId: 2847a8926408a514fbfaa7db268122ba
+    - name: zombie-attacking_Frame_2
+      frameIndex: 2
+      additiveSortOrder: 0
+      cellRect:
+        x: 61
+        y: 18
+        width: 199
+        height: 258
+      spriteId: 06bdd701fbfc967439543ea76c1a2e96
+    - name: zombie-attacking_Frame_3
+      frameIndex: 3
+      additiveSortOrder: 0
+      cellRect:
+        x: 94
+        y: 16
+        width: 160
+        height: 308
+      spriteId: f3a9b34ef04fa274aa1e1db76df50a48
+    - name: zombie-attacking_Frame_4
+      frameIndex: 4
+      additiveSortOrder: 0
+      cellRect:
+        x: 95
+        y: 17
+        width: 159
+        height: 319
+      spriteId: f61d16fe81c5fde4da1a9929dd2829bb
+    - name: zombie-attacking_Frame_5
+      frameIndex: 5
+      additiveSortOrder: 0
+      cellRect:
+        x: 85
+        y: 22
+        width: 168
+        height: 306
+      spriteId: ed05680ba3f51dc4587d22a700860e34
+    - name: zombie-attacking_Frame_6
+      frameIndex: 6
+      additiveSortOrder: 0
+      cellRect:
+        x: 79
+        y: 25
+        width: 176
+        height: 306
+      spriteId: c5024640d8550564094b535a671ecb16
+    - name: zombie-attacking_Frame_7
+      frameIndex: 7
+      additiveSortOrder: 0
+      cellRect:
+        x: 89
+        y: 26
+        width: 166
+        height: 318
+      spriteId: aea551a2f30850a4b989a22ad6195210
+    - name: zombie-attacking_Frame_8
+      frameIndex: 8
+      additiveSortOrder: 0
+      cellRect:
+        x: 90
+        y: 25
+        width: 167
+        height: 322
+      spriteId: 365f4f75952a5ca409cb44bd2dc81af9
+    - name: zombie-attacking_Frame_9
+      frameIndex: 9
+      additiveSortOrder: 0
+      cellRect:
+        x: 85
+        y: 37
+        width: 170
+        height: 310
+      spriteId: a80847b7a17fcb24086d726246bcdf66
+    - name: zombie-attacking_Frame_10
+      frameIndex: 10
+      additiveSortOrder: 0
+      cellRect:
+        x: 80
+        y: 52
+        width: 172
+        height: 298
+      spriteId: e78e2cb103a2155449b00829a505db54
+    - name: zombie-attacking_Frame_11
+      frameIndex: 11
+      additiveSortOrder: 0
+      cellRect:
+        x: 91
+        y: 114
+        width: 164
+        height: 229
+      spriteId: 334a502a353a5534fbc61f678eb75f04
+    - name: zombie-attacking_Frame_12
+      frameIndex: 12
+      additiveSortOrder: 0
+      cellRect:
+        x: 93
+        y: 116
+        width: 163
+        height: 238
+      spriteId: 7a5992a24b497214aa1c5807c78da2d2
+    - name: zombie-attacking_Frame_13
+      frameIndex: 13
+      additiveSortOrder: 0
+      cellRect:
+        x: 90
+        y: 115
+        width: 166
+        height: 250
+      spriteId: cb7726e505c171145b073de1a3044f7c
+    - name: zombie-attacking_Frame_14
+      frameIndex: 14
+      additiveSortOrder: 0
+      cellRect:
+        x: 91
+        y: 115
+        width: 165
+        height: 257
+      spriteId: 5d207f41dafa33b43bf4cae9418bf466
+    - name: zombie-attacking_Frame_15
+      frameIndex: 15
+      additiveSortOrder: 0
+      cellRect:
+        x: 91
+        y: 115
+        width: 164
+        height: 254
+      spriteId: 6f48a6252f9aa7d42aeadf0c2fa475e6
+    - name: zombie-attacking_Frame_16
+      frameIndex: 16
+      additiveSortOrder: 0
+      cellRect:
+        x: 84
+        y: 115
+        width: 171
+        height: 258
+      spriteId: 048c13345531b574ba52d91912162199
+    linkedCells: []
+    parentIndex: -1
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 313, y: 374}
